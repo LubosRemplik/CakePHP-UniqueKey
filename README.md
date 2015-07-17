@@ -30,6 +30,7 @@ public function initialize(array $config)
     $this->addBehavior('Lubos/UniqueKey.UniqueKey');
 }
 ```
+Make sure your table has uid field
 
 Generate number for later use  
 ```php
